@@ -13,13 +13,15 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: url('/public/images/bg_2.gif');
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
       color: #333;
       height: 100vh;
+      background: url('/public/images/bg_1.jpg') center/cover no-repeat !important;
+      color: #333;
     }
+    
 
     h1 {
       margin-top: 10px;

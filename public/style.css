@@ -1,6 +1,6 @@
 body{
     background-color: rgb(253, 202, 249) !important;
-    background: url('/public/images/bg_2.gif') center/cover no-repeat;
+    background: url('/public/images/bg_1.jpg') center/cover no-repeat;
 }
 .btn-create {
   display: inline-block;

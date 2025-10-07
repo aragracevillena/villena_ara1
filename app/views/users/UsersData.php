@@ -26,7 +26,7 @@
       text-align: center;
       padding: 20px;
       margin: 0;
-      background: #5f0b51ff;
+      background: #ea8bf7ff;
       color: white;
       font-size: 28px;
     }
@@ -47,7 +47,7 @@
     }
 
     th {
-      background-color: #5f0b51ff;
+      background-color: #b13ba7ff;
       color: white;
       font-size: 16px;
     }
@@ -58,7 +58,7 @@
 
     tr:hover {
       color: white;
-      background-color: #6d186dff;
+      background-color: #941764ff;
       transition: 0.3s;
     }
 
@@ -100,7 +100,7 @@
 
 /* Search Button */
 .btn-primary {
-  background-color: #660561ff; 
+  background-color: #a72f71ff; 
   border: none;
   color: white;
   border-radius: 6px;
@@ -113,7 +113,7 @@
 }
 
 .btn-primary:hover {
-  background-color: #3f0a70ff; /* teal-700 */
+  background-color: #8d1059ff; 
 }
 
 

@@ -23,7 +23,7 @@
       text-align: center;
       padding: 20px;
       margin: 0;
-      background: #5f0d79ff;
+      background: #ea8bf7ff;
       color: white;
       font-size: 28px;
     }
@@ -33,7 +33,7 @@
       margin: 30px auto;
       border-collapse: collapse;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      background: #f2c0fcff;
+      background: #fae4fdff;
       border-radius: 10px;
       overflow: hidden;
     }
@@ -44,18 +44,18 @@
     }
 
     th {
-      background-color: #69107aff;
+      background-color: #b13ba7ff;
       color: white;
       font-size: 16px;
     }
 
     tr:nth-child(even) {
-      background-color: #f5a8ffff;
+      background-color: #f6b5ffff;
     }
 
     tr:hover {
       color: white;
-      background-color: #621b7ede;
+      background-color: #941764ff;
       transition: 0.3s;
     }
 
@@ -90,14 +90,14 @@
 }
 
 .form-control:focus {
-  border-color: #850d7fff; /* teal-600 */
+  border-color: #fd45b1ff; /* teal-600 */
   box-shadow: 0 0 4px rgba(13, 148, 136, 0.5);
   outline: none;
 }
 
 /* Search Button */
 .btn-primary {
-  background-color: #660561ff; 
+  background-color: #a72f71ff; 
   border: none;
   color: white;
   border-radius: 6px;
@@ -110,7 +110,7 @@
 }
 
 .btn-primary:hover {
-  background-color: #550f76ff; /* teal-700 */
+  background-color: #8d1059ff; 
 }
 
 

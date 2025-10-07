@@ -13,7 +13,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;    
-      background: url('/public/images/bg_2.gif') center/cover no-repeat  !important;
+      background: url('/public/images/bg_1.jpg') center/cover no-repeat  !important;
       color: #333;
     }
     .container{

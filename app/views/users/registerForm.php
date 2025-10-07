@@ -13,7 +13,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;    
-      background: url('/public/images/bg_1.jpg') center/cover no-repeat  !important;
+      background: url('/public/images/bg_1.jpg') center/cover no-repeat !important;
       color: #333;
     }
     .container{
@@ -27,35 +27,35 @@
 <body class=" flex items-center justify-center min-h-screen font-sans">
   <div class="container p-8 rounded-2xl shadow-xl w-full max-w-md">
     <!-- Title -->
-    <h1 class="text-3xl font-extrabold text-center text-purple-900 mb-6">Register</h1>
+    <h1 class="text-3xl font-extrabold text-center text-pink-900 mb-6">Register</h1>
 
     <!-- Form -->
     <form action="<?= site_url('users/registerForm'); ?>" method="post" class="space-y-4">
       
       <!-- Username -->
       <div>
-        <label class="block text-sm font-medium text-purple-100">Username</label>
+        <label class="block text-sm font-medium text-pink-100">Username</label>
         <input type="text" name="username" required placeholder="Enter your username"
-          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none">
+          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 outline-none">
       </div>
 
       <!-- Email -->
       <div>
-        <label class="block text-sm font-medium text-purple-100">Email</label>
+        <label class="block text-sm font-medium text-pink-100">Email</label>
         <input type="email" name="email" required placeholder="Enter your email"
-          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none">
+          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 outline-none">
       </div>
 
       <!-- Password -->
       <div>
-        <label class="block text-sm font-medium text-purple-100">Password</label>
+        <label class="block text-sm font-medium text-pink-100">Password</label>
         <input type="password" name="password" required placeholder="Enter your password"
-          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none">
+          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 outline-none">
       </div>
 
       <!-- Role -->
       <div>
-        <label class="block text-sm font-medium text-purple-100">Role</label>
+        <label class="block text-sm font-medium text-pink-100">Role</label>
         <select name="role" required placeholder="Select role"
           class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none">
           <option value="">-- Select Role --</option>
@@ -66,7 +66,7 @@
 
       <!-- Submit Button -->
       <button type="submit"
-        class="w-full bg-purple-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200">
+        class="w-full bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-pink-700 transition duration-200">
         Register
       </button>
     </form>
@@ -74,7 +74,7 @@
     <!-- Login Link -->
     <div class="mt-6 text-center text-black text-lg">
       <p>Already have an account? 
-        <a href="<?= site_url('users/login'); ?>"  class="text-purple-800 font-lg hover:underline hover:text-purple-200">Login here</a>
+        <a href="<?= site_url('users/login'); ?>"  class="text-pink-800 font-lg hover:underline hover:text-pink-200">Login here</a>
       </p>
     </div>
   </div>

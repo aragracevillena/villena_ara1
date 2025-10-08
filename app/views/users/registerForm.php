@@ -16,7 +16,7 @@
       background: url('/public/images/bg_1.jpg') center/cover no-repeat !important;
       color: #333;
     }
-    .container{
+    .cont{
       background: rgba(255, 196, 242, 0.27); /* translucent white */
       backdrop-filter: blur(5px); /* blur the bg behind */
       -webkit-backdrop-filter: blur(5px);
@@ -25,7 +25,7 @@
 
 
 <body class=" flex items-center justify-center min-h-screen font-sans">
-  <div class="container p-8 rounded-2xl shadow-xl w-full max-w-md">
+  <div class="cont p-8 rounded-2xl shadow-xl w-full max-w-md">
     <!-- Title -->
     <h1 class="text-3xl font-extrabold text-center text-pink-900 mb-6">Register</h1>
 

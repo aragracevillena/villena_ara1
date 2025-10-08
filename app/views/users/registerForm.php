@@ -74,7 +74,7 @@
     <!-- Login Link -->
     <div class="mt-6 text-center text-black text-lg">
       <p>Already have an account? 
-        <a href="<?= site_url('users/login'); ?>"  class="text-pink-800 font-lg hover:underline hover:text-pink-200">Login here</a>
+        <a href="<?= site_url('users/login'); ?>"  class="text-pink-800 font-lg hover:underline hover:text-pink-800">Login here</a>
       </p>
     </div>
   </div>

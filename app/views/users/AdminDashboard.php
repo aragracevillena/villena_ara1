@@ -27,7 +27,7 @@
       text-align: center;
       padding: 20px;
       margin: 0;
-      background: #ea8bf7ff;
+      background: #941764ff;
       color: white;
       font-size: 28px;
     }

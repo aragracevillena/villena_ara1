@@ -78,7 +78,7 @@
       <!-- Register -->
       <div class="mt-6 text-center text-black text-lg">
         <p>Don't have an account?
-          <a href="<?= site_url('users/registerForm'); ?>" class="text-pink-800 font-lg hover:underline hover:text-pink-200">Register here</a>
+          <a href="<?= site_url('users/registerForm'); ?>" class="text-pink-800 font-lg hover:underline hover:text-pink-800">Register here</a>
         </p>
       </div>
    </div>

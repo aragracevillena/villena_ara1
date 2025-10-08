@@ -57,7 +57,7 @@
       <div>
         <label class="block text-sm font-medium text-pink-100">Role</label>
         <select name="role" required placeholder="Select role"
-          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none">
+          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-pink-500 focus:border-pink-500 outline-none">
           <option value="">-- Select Role --</option>
           <option value="user">User</option>
           <option value="admin">Admin</option>

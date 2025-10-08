@@ -55,7 +55,7 @@
 
       <!-- Submit Button -->
       <button type="submit"
-        class="w-full bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200">
+        class="w-full bg-pink-600 text-white py-2 px-4 rounded-lg hover:bg-pink-700 transition duration-200">
         Create
       </button>
     </form>

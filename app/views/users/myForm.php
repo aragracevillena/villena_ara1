@@ -39,7 +39,7 @@
 
    <div class="container p-8 rounded-2xl shadow-xl w-full max-w-md">
       <!-- Title -->
-      <h1 class="text-3xl font-extrabold text-center text-purple-900 mb-6">Login</h1>
+      <h1 class="text-3xl font-extrabold text-center text-pink-900 mb-6">Login</h1>
 
       <!-- Error Message -->
     <?php if (!empty($error)): ?>
@@ -55,22 +55,22 @@
       <form method="post" action="<?= site_url('users/login') ?>" class="space-y-4">
         <!-- Username -->
         <div>
-          <label class="block text-sm font-medium text-purple-100">Username</label>
+          <label class="block text-sm font-medium text-pink-100">Username</label>
           <input type="text" placeholder="Enter your name" name="username" required 
-            class="block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none">
+            class="block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 outline-none">
         </div>
 
         <!-- Password -->
         <div class="relative">
-          <label class="block text-sm font-medium text-purple-100">Password</label>
+          <label class="block text-sm font-medium text-pink-100">Password</label>
           <input type="password" placeholder="Enter your password" name="password" id="password" required
-            class="block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none">
+            class="block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-pink-500 outline-none">
           <i class="fa-solid fa-eye absolute right-3 top-3 text-gray-400 cursor-pointer" id="togglePassword"></i>
         </div>
 
         <!-- Button -->
         <button type="submit" id="btn"
-          class="w-full bg-purple-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200">
+          class="w-full bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-pink-700 transition duration-200">
           Login
         </button>
       </form>
@@ -78,7 +78,7 @@
       <!-- Register -->
       <div class="mt-6 text-center text-black text-lg">
         <p>Don't have an account?
-          <a href="<?= site_url('users/registerForm'); ?>" class="text-purple-800 font-lg hover:underline hover:text-purple-200">Register here</a>
+          <a href="<?= site_url('users/registerForm'); ?>" class="text-pink-800 font-lg hover:underline hover:text-pink-200">Register here</a>
         </p>
       </div>
    </div>

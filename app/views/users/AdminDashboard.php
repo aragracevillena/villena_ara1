@@ -165,7 +165,6 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to Admin Dashboard</h1>
 <div class="search-container">
       <div class="flex justify-end p-4">
       <a href="<?= site_url('users/logout'); ?>"

@@ -49,7 +49,7 @@
     }
 
     th {
-      background-color: #b13ba7ff;
+      background-color: #eb8fe3ff;
       color: white;
       font-size: 16px;
     }
